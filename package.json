@@ -1,0 +1,19 @@
+{
+  "name": "qa-challenge",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "test": "playwright test --headed"
+  },
+  "keywords": [],
+  "author": "Boris Micic",
+  "license": "ISC",
+  "description": "",
+  "devDependencies": {
+    "@playwright/test": "^1.46.0"
+  },
+  "dependencies": {
+    "postcode": "^5.1.0",
+    "unique-names-generator": "^4.7.1"
+  }
+}
