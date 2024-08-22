@@ -32,7 +32,6 @@ test("GET / pet/{petId} - Find Pet by ID", async ({ request }) => {
   );
 
   const getResponseBody = await getResponse.json();
-  console.log(getResponseBody);
 
   expect(response.ok()).toBeTruthy();
   expect(response.status()).toBe(200);
