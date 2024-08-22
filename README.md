@@ -16,11 +16,7 @@ This project provides a framework for automating frontend and backend tests usin
 
 - npm install
 
-### 2. Install Playwright Browsers:
-
-- npx install
-
-### 3. Runing Tests:
+### 2. Runing Tests:
 
 - npm test
 
