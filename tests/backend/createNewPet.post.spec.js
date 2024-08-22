@@ -24,7 +24,6 @@ test("POST / pet - Create New Pet", async ({ request }) => {
   });
 
   const postResponseBody = await response.json();
-  console.log(postResponseBody);
 
   expect(response.ok()).toBeTruthy();
   expect(response.status()).toBe(200);
